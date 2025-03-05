@@ -3,6 +3,13 @@ function map(array, cb) {
   // Tiene que guardar el resultado devuelto por el callback en cada elemento dentro de un nuevo arreglo.
   // Retorna el nuevo arreglo.
   // Tu código:
+  
+  var otherArray = [];
+  for (let number of array) {
+      var result = cb(number);
+      otherArray.push(result);
+   }
+   return otherArray;
 }
 
 module.exports = map;

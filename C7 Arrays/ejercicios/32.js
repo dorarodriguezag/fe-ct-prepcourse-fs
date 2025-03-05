@@ -7,4 +7,7 @@ function esPalindromo(string) {
   // Tu código:
 }
 
+console.log(Object.getOwnPropertyNames(Object.prototype));
+
+
 module.exports = esPalindromo;
